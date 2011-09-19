@@ -1,6 +1,6 @@
 /* Sliding doors technique */
 .widget_nw {
-	background:transparent url(default/top_left.gif) no-repeat;
+	background:transparent url(top_left.gif) no-repeat;
 	height:30px;
 }     
 
@@ -10,12 +10,12 @@
 }
 
 .widget_sw {
-	background:transparent url(default/bottom_left.gif) no-repeat;
+	background:transparent url(bottom_left.gif) no-repeat;
 	height:15px;
 }
 
 .widget_title {
-	background:  url(default/top_right.gif) repeat-x right top;
+	background:  url(top_right.gif) repeat-x right top;
 	color:#123456;
 	font:bold 14px/25px Tahoma, Arial, sans-serif;
 	height:26px;
@@ -36,7 +36,7 @@
 }
 
 .widget_statusbar {
-	background:transparent url(default/bottom_right.gif) repeat-x right top;
+	background:transparent url(bottom_right.gif) repeat-x right top;
 	font-size:8px;
 	height:15px;
 	margin-left:11px;

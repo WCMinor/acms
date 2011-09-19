@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<title>Test Portal</title>
+	<title>ACMS Administration Portal</title>
   <link rel="stylesheet" href="css/page.css" type="text/css" media="screen" charset="utf-8" />
   <link rel="stylesheet" href="css/default.css" type="text/css" media="screen" charset="utf-8" />
   <script type="text/javascript" src="lib/prototype.js"></script> 
@@ -15,7 +15,7 @@
 
 </head>
 <body>      
-  <h1>Portal test page</h1>
+  <h1>ACMS Administration Portal</h1>
   <div id="page">
       <div id="widget_col_0"></div>
       <div id="widget_col_1"></div>
@@ -57,14 +57,14 @@
      function init() {             
        portal = new Xilinus.Portal("#page div", {onOverWidget: onOverWidget, onOutWidget: onOutWidget, onChange: onChange, removeEffect: Effect.SwitchOff}); 
        // Fake widgets
-       portal.add(new Xilinus.Widget().setTitle("Widget #1.0").setContent(latin1), 0);
-       portal.add(new Xilinus.Widget().setTitle("Widget #1.1").setContent(latin2), 0);
-       portal.add(new Xilinus.Widget().setTitle("Widget #1.2").setContent(latin3), 0);
+       portal.add(new Xilinus.Widget().setTitle("wiget 1").setContent(latin1), 0);
+       portal.add(new Xilinus.Widget().setTitle("wiget 2").setContent(latin2), 0);
+       portal.add(new Xilinus.Widget().setTitle("wiget 3").setContent(latin3), 0);
            
-       portal.add(new Xilinus.Widget().setTitle("Widget #2.0").setContent(latin2 + latin3), 1);
-       portal.add(new Xilinus.Widget().setTitle("Widget #2.1").setContent(latin3), 1);      
+       portal.add(new Xilinus.Widget().setTitle("wiget 4").setContent(latin2 + latin3), 1);
+       portal.add(new Xilinus.Widget().setTitle("wiget 5").setContent(latin3), 1);      
      
-       portal.add(new Xilinus.Widget().setTitle("Widget #1.4").setContent(latin1 + latin2 + latin3), 2);
+       portal.add(new Xilinus.Widget().setTitle("wiget 6").setContent(latin1 + latin2 + latin3), 2);
        // Add controls buttons
        portal.addWidgetControls("control_buttons");
      }
